@@ -1,11 +1,16 @@
 <!doctype html>
-<html class="theme-next use-motion theme-next-mist">
-<head>
+
+
+
   
 
-<meta charset="UTF-8"/>
+
+<html class="theme-next pisces use-motion">
+<head>
+  <meta charset="UTF-8"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
 
 
 <meta http-equiv="Cache-Control" content="no-transform" />
@@ -18,79 +23,128 @@
 
 
 
-  <link rel="stylesheet" type="text/css" href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5"/>
 
 
 
 
-<link rel="stylesheet" type="text/css" href="/css/main.css?v=0.4.5.1"/>
-
-
-    <meta name="description" content="凡事包容，凡事相信，凡事盼望，凡事忍耐" />
-
-
-
-  <meta name="keywords" content="Hexo,next" />
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css"/>
 
 
 
 
+  
+  
+  
+  
 
-  <link rel="shorticon icon" type="image/x-icon" href="/favicon.ico?v=0.4.5.1" />
+  
+    
+    
+  
 
+  
 
-<meta name="description" content="凡事包容，凡事相信，凡事盼望，凡事忍耐">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Leo's Notes">
-<meta property="og:url" content="http://leoau.com/index.html">
-<meta property="og:site_name" content="Leo's Notes">
-<meta property="og:description" content="凡事包容，凡事相信，凡事盼望，凡事忍耐">
-<meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Leo's Notes">
-<meta name="twitter:description" content="凡事包容，凡事相信，凡事盼望，凡事忍耐">
+  
 
+  
 
-<script type="text/javascript" id="hexo.configuration">
-  var CONFIG = {
-    scheme: 'Mist',
-    sidebar: 'post'
-  };
-</script>
+  
 
-  <title> Leo's Notes </title>
-</head>
-
-<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
-
-  <!--[if lte IE 8]>
-  <div style=' clear: both; height: 59px; padding:0 0 0 15px; position: relative;margin:0 auto;'>
-    <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-      <img src="http://7u2nvr.com1.z0.glb.clouddn.com/picouterie.jpg" border="0" height="42" width="820"
-           alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today or use other browser ,like chrome firefox safari."
-           style='margin-left:auto;margin-right:auto;display: block;'/>
-    </a>
-  </div>
-<![endif]-->
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
   
 
 
 
-  <div class="container one-column 
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="Hexo, NexT" />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Leo的筆記">
+<meta property="og:url" content="http://leoau.com/index.html">
+<meta property="og:site_name" content="Leo的筆記">
+<meta property="og:description">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Leo的筆記">
+<meta name="twitter:description">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Pisces',
+    sidebar: {"position":"left","display":"post"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Leo的筆記 </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-left 
    page-home 
-">
+ ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
-      <div class="header-inner"><h1 class="site-meta">
-  <span class="logo-line-before"><i></i></span>
-  <a href="/" class="brand" rel="start">
-      <span class="logo">
-        <i class="icon-next-logo"></i>
-      </span>
-      <span class="site-title">Leo's Notes</span>
-  </a>
-  <span class="logo-line-after"><i></i></span>
-</h1>
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Leo的筆記</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
 
 <div class="site-nav-toggle">
   <button>
@@ -104,59 +158,43 @@
   
 
   
-    <ul id="menu" class="menu menu-left">
+    <ul id="menu" class="menu">
       
         
         <li class="menu-item menu-item-home">
           <a href="/" rel="section">
-            <i class="menu-item-icon icon-next-home"></i> <br />
-            首页
+            
+              <i class="menu-item-icon fa fa-home fa-fw"></i> <br />
+            
+            首頁
           </a>
         </li>
       
         
         <li class="menu-item menu-item-archives">
           <a href="/archives" rel="section">
-            <i class="menu-item-icon icon-next-archives"></i> <br />
-            目录
+            
+              <i class="menu-item-icon fa fa-archive fa-fw"></i> <br />
+            
+            歸檔
           </a>
         </li>
       
         
         <li class="menu-item menu-item-tags">
           <a href="/tags" rel="section">
-            <i class="menu-item-icon icon-next-tags"></i> <br />
-            标签
+            
+              <i class="menu-item-icon fa fa-tags fa-fw"></i> <br />
+            
+            標籤
           </a>
         </li>
       
 
       
-      
     </ul>
   
 
-  
-    <div class="site-search">
-      
-  
-  <form class="site-search-form">
-    <input type="text" id="st-search-input" class="st-search-input st-default-search-input" />
-  </form>
-
-
-<script type="text/javascript">
-  (function(w,d,t,u,n,s,e){w['SwiftypeObject']=n;w[n]=w[n]||function(){
-    (w[n].q=w[n].q||[]).push(arguments);};s=d.createElement(t);
-    e=d.getElementsByTagName(t)[0];s.async=1;s.src=u;e.parentNode.insertBefore(s,e);
-  })(window,document,'script','//s.swiftypecdn.com/install/v2/st.js','_st');
-
-  _st('install', 'd6zfvZ664MfFHxCfxR52','2.0.0');
-</script>
-
-
-
-    </div>
   
 </nav>
 
@@ -165,78 +203,110 @@
 
     <main id="main" class="main">
       <div class="main-inner">
-        <div id="content" class="content"> 
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
   <section id="posts" class="posts-expand">
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/21/ya-tao-de-11-yue/" itemprop="url">
-                毛毛发烧
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于
-          <time itemprop="dateCreated" datetime="2015-11-21T00:02:44+08:00" content="2015-11-21">
-            2015-11-21
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; 分类于
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/教养/" itemprop="url" rel="index">
-                  <span itemprop="name">教养</span>
+            
+              
+                
+                <a class="post-title-link" href="/2015/11/21/ya-tao-de-11-yue/" itemprop="url">
+                  毛毛发烧
                 </a>
-              </span>
-
               
-              
-
             
-          </span>
+          </h1>
         
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time itemprop="dateCreated" datetime="2015-11-21T00:02:44+08:00" content="2015-11-21">
+              2015-11-21
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/教养/" itemprop="url" rel="index">
+                    <span itemprop="name">教养</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-        
-      </div>
-    </header>
+            <p>这个十一月对于毛毛来说，真的非常难过。先是掉下床摔骨折，骨折还没好呢又开始发高烧。11月15日发烧刚开始我还不太在意，以为只是普通感冒，过几天就会好。但是到了晚上烧得越来越厉害，毛毛的精神状态也很不好，喉咙开始沙哑，发不出声音来。16日是星期一，我请了假，送天乐上学后，抱着她到妇幼保健院看医生。抽血化验发现血白细胞高达21W（正常值是6-10W）。医生看了化验结果，说发炎严重需要住院。</p>
+<p>然后就是缴费住院，我请了两天假陪着。前后住了四天院，每天打4次点滴，上下午分两次进行，都是青霉素加头孢的抗生素组合。每天还要做两次雾化，有时毛毛还挺乖的，会自己拿着雾化器来吸。但是大部分时候都不老实，如果不是睡着的时候打针，就一直哭闹，要拿着吊瓶抱着她到处走。这几天，最累的是老婆，晚上回家也睡不好，脸色变得很憔悴。</p>
+<p>后面两天，毛毛开始拉肚子，拉的是很稀的水。我想应该是抗生素造成的肠胃混乱，也没告诉医生，害怕还要我们继续住院。在医院的第三天和第四天让进凤过来医院帮忙。第四天二姐从东莞过来玩，</p>
+<p>出院时医生交待还要吃几天头孢。回到家还有毛毛拉肚子的情况，但是没那么严重了。晚上睡觉也安稳了很多。希望毛毛尽快恢复健康活泼。对了，明天还得去复查骨折的地方。</p>
 
-    <div class="post-body">
-
-      
-      
-
-      
+          
         
-          <span itemprop="articleBody">
-            
-            这个十一月对于毛毛来说，真的非常难过。先是掉下床摔骨折，骨折还没好呢又开始发高烧。11月15日发烧刚开始我还不太在意，以为只是普通感冒，过几天就会好。但是到了晚上烧得越来越厉害，毛毛的精神状态也很不好，喉咙开始沙哑，发不出声音来。16日是星期一，我请了假，送天乐上学后，抱着她到妇幼保健院看医生。抽血化验发现血白细胞高达21W（正常值是6-10W）。医生看了化验结果，说发炎严重需要住院。
-然后就是缴费住院，我请了两天假陪着。前后住了四天院，每天打4次点滴，上下午分两次进行，都是青霉素加头孢的抗生素组合。每天还要做两次雾化，有时毛毛还挺乖的，会自己拿着雾化器来吸。但是大部分
-            ...
-          </span>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/11/21/ya-tao-de-11-yue/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
+      
+    </div>
+    
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -256,68 +326,102 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/11/04/nv-er-die-luo-chuang/" itemprop="url">
-                儿女掉下床
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于
-          <time itemprop="dateCreated" datetime="2015-11-04T17:48:44+08:00" content="2015-11-04">
-            2015-11-04
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; 分类于
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/教养/" itemprop="url" rel="index">
-                  <span itemprop="name">教养</span>
+            
+              
+                
+                <a class="post-title-link" href="/2015/11/04/nv-er-die-luo-chuang/" itemprop="url">
+                  儿女掉下床
                 </a>
-              </span>
-
               
-              
-
             
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time itemprop="dateCreated" datetime="2015-11-04T17:48:44+08:00" content="2015-11-04">
+              2015-11-04
+            </time>
           </span>
-        
 
-        
           
-        
-      </div>
-    </header>
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/教养/" itemprop="url" rel="index">
+                    <span itemprop="name">教养</span>
+                  </a>
+                </span>
 
-    <div class="post-body">
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="description">2015年11月4日，对于雅弢来说，真是一个不幸的日子,这天她以小鲤鱼跃龙门的姿态，翻越了床上的护栏，摔到地上。</span>
+          2015年11月4日，对于雅弢来说，真是一个不幸的日子,这天她以小鲤鱼跃龙门的姿态，翻越了床上的护栏，摔到地上。
           <div class="post-more-link text-center">
             <a class="btn" href="/2015/11/04/nv-er-die-luo-chuang/">
-              阅读全文 &raquo;
+              閱讀全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+    
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -337,76 +441,105 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/10/02/fang-xue-hou-de-gu-shi/" itemprop="url">
-                放学后的故事
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于
-          <time itemprop="dateCreated" datetime="2015-10-02T17:48:44+08:00" content="2015-10-02">
-            2015-10-02
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; 分类于
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/教养/" itemprop="url" rel="index">
-                  <span itemprop="name">教养</span>
+            
+              
+                
+                <a class="post-title-link" href="/2015/10/02/fang-xue-hou-de-gu-shi/" itemprop="url">
+                  放学后的故事
                 </a>
-              </span>
-
               
-              
-
             
-          </span>
+          </h1>
         
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time itemprop="dateCreated" datetime="2015-10-02T17:48:44+08:00" content="2015-10-02">
+              2015-10-02
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/教养/" itemprop="url" rel="index">
+                    <span itemprop="name">教养</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-        
-      </div>
-    </header>
+            <p><img src="http://7xn46u.com1.z0.glb.clouddn.com/blog/imgNotes_1443574353385.jpg" alt=""></p>
+<p>星期一不用上班，第一次去幼儿园接欧天乐放学。去得有点早，中一班四点十分放学，我三点五十就到了幼儿园门口。</p>
+<p>终于到了时间，孩子们像火车一样排着队出来给大人们认领，欧天乐排在第一个。当我隔着玻璃向他挥手的时候，他也看到我，激动地对他旁边的同学说：看，这是我爸爸。</p>
+<p>领他出来后，有个比他大一点的姐姐带着他在老人院旁边的健身区疯跑，这个姐姐叫赵晨曦。后来发生的一件小事很有意思。</p>
+<p>赵晨曦和欧天乐坐在健步器上看书的时候，他们班另一个同学也在旁边，那个应该是小妹妹。小妹妹有一辆玩具车，欧天乐就坐了过去，和小妹妹一起坐车上。这时赵晨曦看到了就有点不开心，拿着书跑了。欧天乐推着车子过去还想和她一起看书，小妹妹也在车上。赵晨曦生气地对欧天乐说让那个小妹妹走开。后来小妹妹离开他们去别处玩，赵晨曦马上很开心地笑起来，乐呵呵地和欧天乐一起看书。</p>
+<p>看着这些敏感的女孩和懵懂的男孩，心想这是多纯真的感情啊，自己当年也是这样一个懵懂小男孩吧。</p>
 
-    <div class="post-body">
-
-      
-      
-
-      
+          
         
-          <span itemprop="articleBody">
-            
-            
-星期一不用上班，第一次去幼儿园接欧天乐放学。去得有点早，中一班四点十分放学，我三点五十就到了幼儿园门口。
-终于到了时间，孩子们像火车一样排着队出来给大人们认领，欧天乐排在第一个。当我隔着玻璃向他挥手的时候，他也看到我，激动地对他旁边的同学说：看，这是我爸爸。
-领他出来后，有个比他大一点的姐姐带着他在老人院旁边的健身区疯跑，这个姐姐叫赵晨曦。后来发生的一件小事很有意思。
-赵晨曦和欧天乐坐在健步器上看书的时候，他们班另一个同学也在旁边，那个应该是小妹妹。小妹妹有一辆玩具车，欧天乐就坐了过去，和小妹妹一起坐车上。这时赵晨曦看到了就有点不开心，拿着书跑了。欧天乐推着车子过去还
-            ...
-          </span>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/10/02/fang-xue-hou-de-gu-shi/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
+      
+    </div>
+    
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -426,75 +559,114 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/09/27/fu-yu-zi/" itemprop="url">
-                父与子
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于
-          <time itemprop="dateCreated" datetime="2015-09-27T13:32:44+08:00" content="2015-09-27">
-            2015-09-27
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; 分类于
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/教养/" itemprop="url" rel="index">
-                  <span itemprop="name">教养</span>
+            
+              
+                
+                <a class="post-title-link" href="/2015/09/27/fu-yu-zi/" itemprop="url">
+                  父与子
                 </a>
-              </span>
-
               
-              
-
             
-          </span>
+          </h1>
         
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time itemprop="dateCreated" datetime="2015-09-27T13:32:44+08:00" content="2015-09-27">
+              2015-09-27
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/教养/" itemprop="url" rel="index">
+                    <span itemprop="name">教养</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-        
-      </div>
-    </header>
+            <p>2015年9月27日 天气晴 中秋</p>
+<p>这两天，脾气有点暴躁，以致天乐的屁股吃了我几巴掌。其实我已经很少这样直接发脾气了，但有时还是忍不住要动手，特别是急起来的时候。我心里也明白，这样的行动对他和我都没有好处。以后还是要进行冷处理，当他开始使性子的时候，让他进房间自己发泄情绪，冷静了之后再出来。</p>
+<p>有了儿子之后的这几年，我越来越能理解自己小时候父亲对我的各种责骂和皮肉教训。试想自己如果处在父亲当时的处境，未必能做得更好。父亲中年丧偶，家里五个子女，虽然女儿已经出嫁，但是还有两个儿子要娶老婆，最小的儿子要读书，这样的生活压力之下，真的很难有好脾气。</p>
+<p>做父亲最不能忍受的莫过于儿子的叛逆了，但是叛逆似乎又出于人的天性，渊源于当年亚当不听父神上帝教诲，偷吃禁果。当然亚当叛逆的代价最大，最终被赶出伊甸园，劳苦终身。当面对【不听话】的儿子时，我们教训起来内心充满了【正义感】，因为觉得自己是对的，教训也有理可据。但是细心想，我们责罚儿子的权力是怎么来的，难道就因为他是我儿子我就拥有这种权力了吗？</p>
+<blockquote>
+<p>儿女是耶和华所赐的产业，所怀的胎是他所给的赏赐。–诗篇127:3</p>
+</blockquote>
+<p>神的言语已经明确告诉我们，我们的孩子不是我们自己的，是神赏赐给我们的产业。既然是神所托付的，我们必须要履行监护者的角色，按照神的准则来好好管理。那应当如何去做呢？</p>
+<blockquote>
+<p>教养孩童，使他走当行的道，就是到老他也不偏离。–箴言22:6</p>
+<p>你们作父亲的，不要惹儿女的气，只要照着主的教训和警戒，养育他们。–以弗所书6:4</p>
+<p>你们又忘了那劝你们如同劝儿子的话说：「我儿，你不可轻看主的管教，被他责备的时候，也不可灰心。因为主所爱的他必管教，又鞭打凡所收纳的儿子。」你们所忍受的，是神管教你们，待你们如同待儿子。焉有儿子不被父亲管教的呢？–希伯来书12:5-7</p>
+<p>生身的父都是暂随己意管教我们﹔惟有万灵的父管教我们，是要我们得益处，使我们在他的圣洁上有分。凡管教的事，当时不觉得快乐，反觉得愁苦，后来却为那经练过的人，结出平安的果子，就是义。希伯来书 12：10-11</p>
+</blockquote>
+<p>所以我们作为父亲的教育儿女，不可以按照自己的意志随意发挥。自己首先在神面前作为完全顺服的儿子，领受神的管教，再按照神的教训和警戒，教养儿女。</p>
 
-    <div class="post-body">
-
-      
-      
-
-      
+          
         
-          <span itemprop="articleBody">
-            
-            2015年9月27日 天气晴 中秋
-这两天，脾气有点暴躁，以致天乐的屁股吃了我几巴掌。其实我已经很少这样直接发脾气了，但有时还是忍不住要动手，特别是急起来的时候。我心里也明白，这样的行动对他和我都没有好处。以后还是要进行冷处理，当他开始使性子的时候，让他进房间自己发泄情绪，冷静了之后再出来。
-有了儿子之后的这几年，我越来越能理解自己小时候父亲对我的各种责骂和皮肉教训。试想自己如果处在父亲当时的处境，未必能做得更好。父亲中年丧偶，家里五个子女，虽然女儿已经出嫁，但是还有两个儿子要娶老婆，最小的儿子要读书，这样的生活压力之下，真的很难有好脾气。
-做父亲最不能忍受的莫过于儿子
-            ...
-          </span>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/09/27/fu-yu-zi/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
+      
+    </div>
+    
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -514,68 +686,102 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/09/26/my-first-post/" itemprop="url">
-                2015的中秋节
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于
-          <time itemprop="dateCreated" datetime="2015-09-26T00:00:00+08:00" content="2015-09-26">
-            2015-09-26
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; 分类于
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/日志/" itemprop="url" rel="index">
-                  <span itemprop="name">日志</span>
+            
+              
+                
+                <a class="post-title-link" href="/2015/09/26/my-first-post/" itemprop="url">
+                  2015的中秋节
                 </a>
-              </span>
-
               
-              
-
             
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time itemprop="dateCreated" datetime="2015-09-26T00:00:00+08:00" content="2015-09-26">
+              2015-09-26
+            </time>
           </span>
-        
 
-        
           
-        
-      </div>
-    </header>
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/日志/" itemprop="url" rel="index">
+                    <span itemprop="name">日志</span>
+                  </a>
+                </span>
 
-    <div class="post-body">
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
 
       
       
 
       
         
-          <span itemprop="description">明天是中秋佳节，这也是本站的第一篇日志，希望这是一个好的开始。抓紧时间多记录生活，因为写字本身就是对写字最大的回报。加油吧，中年人！</span>
+          明天是中秋佳节，这也是本站的第一篇日志，希望这是一个好的开始。抓紧时间多记录生活，因为写字本身就是对写字最大的回报。加油吧，中年人！
           <div class="post-more-link text-center">
             <a class="btn" href="/2015/09/26/my-first-post/">
-              阅读全文 &raquo;
+              閱讀全文 &raquo;
             </a>
           </div>
         
+      
+    </div>
+    
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -595,76 +801,111 @@
     
       
 
+  
+  
+
+  
+  
+  
+
   <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <header class="post-header">
 
-      
-      
-        <h1 class="post-title" itemprop="name headline">
-          
-          
-            
-              <a class="post-title-link" href="/2015/01/28/nv-er-chu-sheng/" itemprop="url">
-                女儿出生
-              </a>
-            
-          
-        </h1>
-      
-
-      <div class="post-meta">
-        <span class="post-time">
-          发表于
-          <time itemprop="dateCreated" datetime="2015-01-28T08:28:19+08:00" content="2015-01-28">
-            2015-01-28
-          </time>
-        </span>
+    
+      <header class="post-header">
 
         
-          <span class="post-category" >
-            &nbsp; | &nbsp; 分类于
+        
+          <h1 class="post-title" itemprop="name headline">
             
-              <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                <a href="/categories/教养/" itemprop="url" rel="index">
-                  <span itemprop="name">教养</span>
+            
+              
+                
+                <a class="post-title-link" href="/2015/01/28/nv-er-chu-sheng/" itemprop="url">
+                  女儿出生
                 </a>
-              </span>
-
               
-              
-
             
-          </span>
+          </h1>
         
 
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">發表於</span>
+            <time itemprop="dateCreated" datetime="2015-01-28T08:28:19+08:00" content="2015-01-28">
+              2015-01-28
+            </time>
+          </span>
+
+          
+            <span class="post-category" >
+              &nbsp; | &nbsp;
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">分類於</span>
+              
+                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
+                  <a href="/categories/教养/" itemprop="url" rel="index">
+                    <span itemprop="name">教养</span>
+                  </a>
+                </span>
+
+                
+                
+
+              
+            </span>
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
         
           
-        
-      </div>
-    </header>
+            <p>本来是1月30的预产期，原计划是28号回家，27号接到老婆消息知道宝宝要发动了，马上提前一天回家。</p>
+<p>28号凌晨4点到家门口，正好救护车也刚刚到。于是连家门都没进，就和老婆上了车，直奔医院。</p>
+<p>4:30到医院，进入产房进行检查，这时老婆已经痛得站不起来了。第一次检查结果比较令人振奋，宫颈已经开了8cm。按照惯例，这是第一产程的结束。</p>
+<p>但是值班的医生看了病历，认为第一次破腹产到现在间隔不到2年，不适合顺产。我和老婆的意见都很坚定，要试一试，不行再剖腹。然后就是各种生死状签字，试产开始。</p>
+<p>过程中这个值班医生各种泼冷水，认为我们顺不出来，但是有个助产士MM很热心，一直在鼓励和帮助我们，让我们有了信心。</p>
+<p>5:11，开始人工破水。破水之后回到病床躺了1小时。开始剧烈阵痛的时候，又进了产房。</p>
+<p>在产床战斗了2个多小时，中间过程老婆用尽全力冲刺了好几次，基本可以看到宝宝的头发了，可总是功亏一篑。总是差那么一点点劲头出不来。</p>
+<p>8:22分，转折点。通过关系找到妇产科主任，带了一帮医生过来帮忙。</p>
+<p>8:25分，主任决定人工引产。签了生死状之后开始用吸盘引产。</p>
+<p>8:28分，我透过产房玻璃窗的缺口，看到护士抱起了小宝宝，然后便是婴儿的哭声。</p>
+<p>最后的3分钟应该是我人生中极其漫长的3分钟。这时我很无助，只能默默向上帝祷告。</p>
+<p><img src="http://7xn46u.com1.z0.glb.clouddn.com/blog/imgNotes_1422443592783.jpeg" alt="第一张照片"></p>
 
-    <div class="post-body">
-
-      
-      
-
-      
+          
         
-          <span itemprop="articleBody">
-            
-            本来是1月30的预产期，原计划是28号回家，27号接到老婆消息知道宝宝要发动了，马上提前一天回家。
-28号凌晨4点到家门口，正好救护车也刚刚到。于是连家门都没进，就和老婆上了车，直奔医院。
-4:30到医院，进入产房进行检查，这时老婆已经痛得站不起来了。第一次检查结果比较令人振奋，宫颈已经开了8cm。按照惯例，这是第一产程的结束。
-但是值班的医生看了病历，认为第一次破腹产到现在间隔不到2年，不适合顺产。我和老婆的意见都很坚定，要试一试，不行再剖腹。然后就是各种生死状签字，试产开始。
-过程中这个值班医生各种泼冷水，认为我们顺不出来，但是有个助产士MM很热心，一直在鼓励和帮助
-            ...
-          </span>
-          <div class="post-more-link text-center">
-            <a class="btn" href="/2015/01/28/nv-er-chu-sheng/#more" rel="contents">
-              阅读全文 &raquo;
-            </a>
-          </div>
-        
+      
+    </div>
+    
+    <div>
+      
+    </div>
+
+    <div>
       
     </div>
 
@@ -685,14 +926,17 @@
   </section>
 
   
- </div>
 
+
+          </div>
+          
+
+
+          
+
+        </div>
         
-
-        
-      </div>
-
-      
+          
   
   <div class="sidebar-toggle">
     <div class="sidebar-toggle-line-wrap">
@@ -707,33 +951,41 @@
 
       
 
-      <section class="site-overview">
+      
+
+      <section class="site-overview sidebar-panel  sidebar-panel-active ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
-          <img class="site-author-image" src="https://avatars1.githubusercontent.com/u/32269?v=3&s=460" alt="Leo Au" itemprop="image"/>
+          <img class="site-author-image" itemprop="image"
+               src="/images/default_avatar.jpg"
+               alt="Leo Au" />
           <p class="site-author-name" itemprop="name">Leo Au</p>
+          <p class="site-description motion-element" itemprop="description"></p>
         </div>
-        <p class="site-description motion-element" itemprop="description">凡事包容，凡事相信，凡事盼望，凡事忍耐</p>
         <nav class="site-state motion-element">
           <div class="site-state-item site-state-posts">
             <a href="/archives">
               <span class="site-state-item-count">6</span>
-              <span class="site-state-item-name">日志</span>
+              <span class="site-state-item-name">文章</span>
             </a>
           </div>
 
-          <div class="site-state-item site-state-categories">
-            
-              <span class="site-state-item-count">2</span>
-              <span class="site-state-item-name">分类</span>
+          
+            <div class="site-state-item site-state-categories">
               
-          </div>
+                <span class="site-state-item-count">2</span>
+                <span class="site-state-item-name">分類</span>
+              
+            </div>
+          
 
-          <div class="site-state-item site-state-tags">
-            <a href="/tags">
-              <span class="site-state-item-count">5</span>
-              <span class="site-state-item-name">标签</span>
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">5</span>
+                <span class="site-state-item-name">標籤</span>
               </a>
-          </div>
+            </div>
+          
 
         </nav>
 
@@ -746,7 +998,8 @@
         
         
 
-        <div class="links-of-author motion-element">
+        
+        <div class="links-of-blogroll motion-element">
           
         </div>
 
@@ -758,95 +1011,126 @@
   </aside>
 
 
+        
+      </div>
     </main>
 
     <footer id="footer" class="footer">
-      <div class="footer-inner"> <div class="copyright" >
+      <div class="footer-inner">
+        <div class="copyright" >
   
-  &copy; &nbsp; 
-  <span itemprop="copyrightYear">2015</span>
+  &copy; 
+  <span itemprop="copyrightYear">2016</span>
   <span class="with-love">
-    <i class="icon-next-heart"></i>
+    <i class="fa fa-heart"></i>
   </span>
   <span class="author" itemprop="copyrightHolder">Leo Au</span>
 </div>
 
 <div class="powered-by">
-  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 强力驱动
+  由 <a class="theme-link" href="http://hexo.io">Hexo</a> 強力驅動
 </div>
 
 <div class="theme-info">
-  主题 -
+  主題 -
   <a class="theme-link" href="https://github.com/iissnan/hexo-theme-next">
-    NexT.Mist
+    NexT.Pisces
   </a>
 </div>
 
+        
 
- </div>
+        
+      </div>
     </footer>
 
-    <div class="back-to-top"></div>
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
   </div>
 
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
   <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
 
   
-  
-  
-    
-    
-
-  
-
-
-  
-  
-  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js"></script>
-  <script type="text/javascript" src="/js/fancy-box.js?v=0.4.5.1"></script>
-
-
-  <script type="text/javascript" src="/js/helpers.js?v=0.4.5.1"></script>
-  
-
-  <script type="text/javascript" src="/vendors/velocity/velocity.min.js"></script>
-  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js"></script>
-
-  <script type="text/javascript" src="/js/motion_global.js?v=0.4.5.1" id="motion.global"></script>
-
-
-
-
-  <script type="text/javascript" src="/js/nav-toggle.js?v=0.4.5.1"></script>
   <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
 
   
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
 
-  <script type="text/javascript">
-    $(document).ready(function () {
-      if (CONFIG.sidebar === 'always') {
-        displaySidebar();
-      }
-      if (isMobile()) {
-        FastClick.attach(document.body);
-      }
-    });
-  </script>
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+
+  <script type="text/javascript" src="/js/src/affix.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/schemes/pisces.js?v=5.0.1"></script>
+
+
 
   
 
   
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  
   
 
   
-  <script type="text/javascript" src="/js/lazyload.js"></script>
-  <script type="text/javascript">
-    $(function () {
-      $("#posts").find('img').lazyload({
-        placeholder: "/images/loading.gif",
-        effect: "fadeIn"
-      });
-    });
-  </script>
+
+  
+
 </body>
 </html>
